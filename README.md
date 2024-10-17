@@ -79,7 +79,7 @@ kubectl apply -f deployment.yaml\
 kubectl apply -f service.yaml\
 Ensure that the deployment creates replicas for auto-scaling and healing.\
 
-##Step 3: Service Discovery and Load Balancing\
+## Step 3: Service Discovery and Load Balancing\
 Configure an Application Load Balancer (ALB):\
 To expose the application to the outside world, configure a Kubernetes Service of type LoadBalancer.\
 
